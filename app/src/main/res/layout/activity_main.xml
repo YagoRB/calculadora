@@ -21,6 +21,8 @@
         android:background="#96F8CD"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="30dp"
+
+        android:gravity="center|right"
         android:layout_marginHorizontal="10dp"
         android:padding="10dp" />
 
@@ -40,6 +42,7 @@
             android:textStyle="bold"
             android:text="AC"
             android:textSize="30dp"
+            android:onClick="ButtonClick"
             android:background="@drawable/keyboard_btn" />
 
         <Button
@@ -49,6 +52,7 @@
             android:layout_margin="5dp"
             android:textColor="@color/black"
             android:layout_weight="1"
+            android:onClick="ButtonClick"
             android:textStyle="bold"
             android:text="^"
             android:textSize="30dp"
@@ -62,6 +66,7 @@
             android:textColor="#000000"
             android:layout_weight="1"
             android:text="⟵"
+            android:onClick="ButtonClick"
             android:textStyle="bold"
             android:textSize="30dp"
             android:background="@drawable/keyboard_btn" />
@@ -73,6 +78,7 @@
             android:layout_margin="5dp"
             android:textColor="#000000"
             android:layout_weight="1"
+            android:onClick="ButtonClick"
             android:text="/"
             android:textSize="30dp"
             android:background="@drawable/keyboard_btn" />
@@ -90,6 +96,7 @@
             android:id="@+id/seven"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
+            android:onClick="ButtonClick"
             android:layout_margin="5dp"
             android:textStyle="bold"
             android:layout_weight="1"
@@ -102,6 +109,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
+            android:onClick="ButtonClick"
             android:textStyle="bold"
             android:layout_weight="1"
             android:text="8"
@@ -116,6 +124,7 @@
             android:textStyle="bold"
             android:layout_weight="1"
             android:text="9"
+            android:onClick="ButtonClick"
             android:textSize="30dp"
             android:background="@drawable/keyboard_btn" />
 
@@ -126,7 +135,8 @@
             android:layout_margin="5dp"
             android:textColor="#000000"
             android:layout_weight="1"
-            android:text="*"
+            android:text="x"
+            android:onClick="ButtonClick"
             android:textSize="30dp"
             android:textStyle="bold"
             android:background="@drawable/keyboard_btn" />
@@ -145,6 +155,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:textStyle="bold"
+            android:onClick="ButtonClick"
             android:layout_margin="5dp"
 
             android:layout_weight="1"
@@ -159,6 +170,7 @@
             android:layout_margin="5dp"
             android:textStyle="bold"
             android:layout_weight="1"
+            android:onClick="ButtonClick"
             android:text="5"
             android:textSize="30dp"
             android:background="@drawable/keyboard_btn" />
@@ -169,19 +181,20 @@
             android:textStyle="bold"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
-
+            android:onClick="ButtonClick"
             android:layout_weight="1"
             android:text="6"
             android:textSize="30dp"
             android:background="@drawable/keyboard_btn" />
 
         <Button
-            android:id="@+id/min"
+            android:id="@+id/sub"
             android:layout_width="0dp"
             android:textStyle="bold"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
             android:textColor="#000000"
+            android:onClick="ButtonClick"
             android:layout_weight="1"
             android:text="-"
             android:textSize="30dp"
@@ -201,7 +214,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
-
+            android:onClick="ButtonClick"
             android:textStyle="bold"
             android:layout_weight="1"
             android:text="1"
@@ -213,7 +226,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
-
+            android:onClick="ButtonClick"
             android:layout_weight="1"
             android:textStyle="bold"
             android:text="2"
@@ -225,7 +238,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
-
+            android:onClick="ButtonClick"
             android:layout_weight="1"
             android:text="3"
             android:textStyle="bold"
@@ -239,6 +252,7 @@
             android:layout_margin="5dp"
             android:textColor="#000000"
             android:layout_weight="1"
+            android:onClick="ButtonClick"
             android:text="+"
             android:textStyle="bold"
             android:textSize="30dp"
@@ -258,7 +272,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
-
+            android:onClick="ButtonClick"
             android:layout_weight="1"
             android:text="0"
             android:textSize="30dp"
@@ -273,6 +287,7 @@
             android:textColor="@color/black"
             android:layout_weight="1"
             android:text=","
+            android:onClick="ButtonClick"
             android:textSize="30dp"
             android:textStyle="bold"
             android:background="@drawable/keyboard_btn" />
@@ -283,6 +298,7 @@
             android:layout_height="fill_parent"
             android:layout_margin="5dp"
             android:textColor="#000000"
+            android:onClick="ButtonClick"
             android:layout_weight="1"
             android:text="Ans"
             android:textStyle="bold"
@@ -296,6 +312,7 @@
             android:layout_margin="5dp"
             android:textColor="#000000"
             android:layout_weight="1"
+            android:onClick="ButtonClick"
             android:text="="
             android:textSize="30dp"
             android:textStyle="bold"
